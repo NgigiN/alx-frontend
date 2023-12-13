@@ -1,1 +1,1 @@
-Starting seriously with html with alx
+This directory dives deeper into HTML CSS and more.
