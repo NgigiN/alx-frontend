@@ -788,7 +788,7 @@ ul.row {
 	padding: 10rem 40rem 2 rem 0;
 }
 
-.card-work:hover .card-title {
+.card-work:hover .card-image {
 	transform: scale(1.2);
 }
 
