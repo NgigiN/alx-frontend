@@ -444,7 +444,7 @@ template {
 	--header-logo-link-top: -1rem;
 	--header-logo-link-left: 0;
 
-	--transistion-duration: 0.3s;
+	--transition-duration: 0.3s;
 	--transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
@@ -788,11 +788,11 @@ ul.row {
 	padding: 10rem 40rem 2 rem 0;
 }
 
-card-work:hover card-image {
+.card-work:hover .card-title {
 	transform: scale(1.2);
 }
 
-card-work:hover .card-outer {
+.card-work:hover .card-outer {
 	transform: scale(0.95);
 }
 
@@ -805,7 +805,7 @@ card-work:hover .card-outer {
 		color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-card-work:hover .card-image {
+.card-work:hover .card-image {
 	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
