@@ -435,7 +435,7 @@ template {
 	--button-font-size: var(--font-size-large);
 	--button-hover-color: var(--color-white);
 	--button-hover-text-decoration: none;
-	--botton-hover-background: var(--color-primary);
+	--buton-hover-background: var(--color-primary);
 }
 
 *,
@@ -486,8 +486,8 @@ a:active {
 
 .button {
 	display: var(--button-display);
-	padding: var(--button-paddding);
-	border-style: var(--button-border);
+	padding: var(--button-padding);
+	border: var(--button-border);
 	font-size: var(--button-font-size);
 	color: var(--button-color);
 	text-decoration: var(--button-text-decoration);
@@ -625,15 +625,7 @@ ul.row {
 	display: block;
 }
 
-
-
-
-
-
-
-
-
-.social-link > svg {
+.social-link>svg {
 	fill: var(--text-color);
 }
 
